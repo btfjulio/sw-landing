@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Bangers", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+a:hover  {
+    text-decoration: none;
+    color: white
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgba(0,0,0.4,0.6);
+    letter-spacing: 0.08rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 70%;
+    max-width: 400px;
+    min-width: 200px;
+    height: 20%;
+    max-height: 200px;
+    color: white;
+    padding: 3rem 2rem;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 1.2rem;
+}
+
+img {
+    width: 100px;
+}
